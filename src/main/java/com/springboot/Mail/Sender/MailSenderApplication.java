@@ -19,7 +19,7 @@ public class MailSenderApplication {
 
 	@EventListener(ApplicationReadyEvent.class)
 	public void sendMail(){
-		emailSender.sendEmail("arunkumarjagadi04@gmail.com","Verify Booking Password ","Confirmation of your marriage convention hall in Belluru, All the best for future life plz denote 12 eggs to the hootagalli boys and tell this password  AKUMAAR_AD to them for more discount in catering service.Thank you ");
+		emailSender.sendEmail("destination email","subject of email ","Body");
 
 	}
 
